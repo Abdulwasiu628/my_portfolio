@@ -1,0 +1,141 @@
+.navContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: inherit;
+    background-color: rgba(245, 245, 245, 0.6);
+    z-index: 12;
+}
+.navBar{
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    border: none;
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-family: 'Freehand', cursive;
+    color: rgb(154, 112, 112);
+    font-weight: 700;
+    font-size: 20px;
+}
+ul li a:hover{
+    text-decoration: none;
+    font-family: 'Freehand', cursive;
+    color: rgb(100, 68, 68);
+    font-weight: 700;
+    font-size: 20px;
+    background-color: aliceblue;
+    padding: 2px 25px;
+    border-radius: 15px;
+}
+.menu-btn{
+    padding: 0;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+.menu-btn1{
+    padding: 0;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    
+}
+.icon-class{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mobile-icon{
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .navContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 10px;
+        position: fixed;
+        top: 91%;
+        bottom: 0;
+        left: 0;
+        right: inherit;
+        background-color: rgba(127, 104, 104, 0.6);
+    }
+    .navBar{
+        display: flex;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    #logo{
+        width: 30px;
+        height: 30px;
+        transform: translateY(1.1rem);
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        flex-direction: row;
+        align-items: center;
+        transform: translateX(-2rem);
+        gap: 15px;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+    }
+    ul li a{
+        text-decoration: none;
+        font-family: 'Freehand', cursive;
+        color: rgb(100, 68, 68);
+        font-weight: 700;
+        font-size: 15px;
+    }
+    ul li a:hover{
+    text-decoration: none;
+    font-family: 'Freehand', cursive;
+    color: rgb(100, 68, 68);
+    font-weight: 700;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 0;
+    border-radius: none;
+}
+    
+    .mobile-icon{
+        display: flex;
+    }
+  
+}

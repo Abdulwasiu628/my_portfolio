@@ -1,0 +1,64 @@
+html body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../images/sky2.jpeg");
+    background-size: 1600px 600px;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    margin-left: 0;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.inner-container{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    min-height: 600px;
+    background-image: linear-gradient(315deg, rgba(153, 137, 211, 0.7) 20%, rgba(123, 11, 11, 0.6) 54%);
+    z-index: 1;
+    top: 0;
+
+}
+.custom-shape-divider-bottom-1687104182 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    opacity: 1.0;
+    z-index: 1;
+}
+.custom-shape-divider-bottom-1687104182 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 205px;
+    z-index: 1;
+}
+.custom-shape-divider-bottom-1687104182 .shape-fill {
+    fill: rgb(245, 245, 245);
+}
+.storyline{
+    position: relative;
+    z-index: 6;
+    margin-left: 0;
+}
+@media (max-width: 480px) {
+    .inner-container{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        min-height: 600px;
+        background-image: linear-gradient(315deg, rgba(153, 137, 211, 0.7) 20%, rgba(123, 11, 11, 0.6) 54%);
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+}

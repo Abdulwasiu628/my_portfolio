@@ -1,0 +1,125 @@
+#contact{
+    background-color: rgb(245, 245, 245);
+
+}
+.contactContainer{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-title{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.section-title h2{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: rgb(123, 113, 113);
+    font-weight: 600;
+}
+.section-title p{
+    text-align: center;
+    color: rgb(123, 113, 113);
+    font-weight: 600;
+}
+form row col-md-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin-left: 2.45rem;
+}
+.form-group input{
+    width:90%;
+    height: 2.3rem;
+    border: none;
+    outline: none;
+    border-radius: 10px ;
+    background-color: rgb(209, 221, 242);
+    padding: 10px 15px;
+}
+.form-group input:focus{
+    background-color: rgb(209, 221, 242);
+}
+.form-group textarea{
+    width:90%;
+    height: 10rem;
+    background-color: rgb(209, 221, 242);
+    border: none;
+    outline: none;
+    border-radius: 10px ;
+    padding: 10px 15px;
+    margin-bottom: 0.133rem;
+}
+.btn-custom{
+    margin-left: 3.7rem;
+    width: 12rem;
+    height: 1.89rem;
+    margin-top: -2.5rem;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(115, 115, 228);
+    color: white;
+    font-weight: 600;
+}
+.contact-item{
+    margin-left: -9.0rem;
+    color: rgb(123, 113, 113);
+    font-weight: 700;
+}
+.text-center{
+    text-align: center;
+    color: rgb(123, 113, 113);
+    font-weight: 700;
+}
+@media (max-width: 480px) {
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        margin-left: 0;
+        transform: translateX(1.9rem);
+    }
+    .btn-custom{
+        margin-left: 0;
+        transform: translateX(2.2rem);
+        width: 12rem;
+        height: 1.89rem;
+        margin-top: -2.5rem;
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(115, 115, 228);
+        color: white;
+        font-weight: 600;
+    }
+    .contact-item{
+        margin-left: 1.0rem;
+        color: rgb(123, 113, 113);
+        font-weight: 700;
+    }
+    .text-center{
+        text-align: center;
+        color: rgb(123, 113, 113);
+        font-weight: 700;
+        margin-bottom: 3rem;
+    }
+    
+}
+
+

@@ -1,0 +1,177 @@
+
+.skillsContainer{
+    margin: 0 0 3rem 0;
+    padding: 0;
+}
+.skillsContainer .skillsHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.833rem;
+}
+.skillsContainer .skillsHeader p{
+    font-size: 45px;
+    margin-top: -3rem;
+    font-family: 'Maven Pro', sans-serif;
+    margin-bottom: 4rem;
+}
+.skillsContainer .skillsBody{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2rem ;
+}
+.skillsContainer .skillsBody .skills{
+    display: flex;
+    width: 45%;
+    min-height: 10rem;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../images//blob2.png");
+    
+}
+.skillsContainer .skillsBody .profile{
+    width: 45%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills .arrowright{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    left: 47%;
+}
+.skills .arrow{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    left: 5.5%;
+}
+.skills #arrow{
+    color: rgb(162, 162, 199);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    transform: translateX(-0.5rem) translateY(-0.18rem);
+}
+.skill_analysis{
+    width: 60%;
+    min-height: 27rem;
+    box-shadow: 1px 1px 4px 0px rgba(107, 190, 231, 0.5);
+    background-color: aliceblue;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.analyzer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#analyzer_tag{
+    font-size: 28px;
+    margin-bottom: -10px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.analyzer p{
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+.analyzer Box{
+    height: 20px;
+}
+@media (max-width: 480px) {
+    #skills{
+        margin-top: -3.3rem;
+    }
+    .skillsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        margin: 0 0 0 0;
+        padding: 0;
+    }
+    .skillsContainer .skillsHeader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    skillsContainer .skillsHeader p{
+        font-size: 20px;
+        margin-top: 1rem;
+        font-family: 'Maven Pro', sans-serif;
+        margin-bottom: 2;
+    }
+    .skillsContainer .skillsBody{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        margin-top: 2rem ;
+        margin-left: 0px;
+        gap: 20px;
+        width: 90%;
+    }
+    .skillsContainer .skillsBody .skills{
+        margin-top: 2rem;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url("../images//blob2.png");
+        
+    }
+    .skillsContainer .skillsBody .profile{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills .arrowright{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        position: absolute;
+        left: 73%;
+    }
+    .skills .arrow{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        border: none;
+        position: absolute;
+        left: 5.5%;
+    }
+    .skills #arrow{
+        color: rgb(162, 162, 199);
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        transform: translateX(-0.5rem) translateY(-0.18rem);
+    }
+    .skill_analysis{
+        min-height: 33rem;
+        width: 90%;
+        box-shadow: 1px 1px 4px 0px rgba(107, 190, 231, 0.5);
+        background-color: aliceblue;
+        padding: 0.3rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        transform: translateX(-2rem);
+        margin-top: 2rem;
+    }
+
+    
+}
+

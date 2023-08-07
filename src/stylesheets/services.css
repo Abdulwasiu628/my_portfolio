@@ -1,0 +1,26 @@
+#services{
+    background-color: white;
+}
+.container{
+    width: 100%;
+}
+.container .section-title h2{
+    text-align: center;
+    font-family: 'Freehand', cursive;
+    font-size: 43px;
+}
+.sectionInfo{
+    display: flex;
+    justify-content: center ;
+    gap: 120px;
+    padding:10px 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.serviceIcons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    gap: 10px;
+    align-items: center;
+}
